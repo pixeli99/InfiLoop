@@ -17,7 +17,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/test_time_scaling.gif" width="90%">
+  <img src="assets/loop_accuracy.gif" width="90%" alt="TRM accuracy peaks and then falls with further looping, while InfiLoop keeps improving.">
 </p>
 
 **InfiLoop** is a loop-native residual connection for looped Transformers.
@@ -112,7 +112,7 @@ Evaluated up to 24,960 executed layers, InfiLoop reaches 90.9% at 1,872 layers, 
 
 ## Code
 
-The animations above are generated from the paper's figure data by `tools/animations/race.py` and `tools/animations/arc.py`; the schematic is `tools/animations/mech.py`.
+The animations above are generated from the paper's figure data by `tools/animations/teaching.py` and `tools/animations/arc.py`; the schematic is `tools/animations/mech.py`.
 
 Training and evaluation code will be released in this repository.
 
