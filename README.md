@@ -11,7 +11,7 @@
 
 <sup>†</sup>Corresponding author: sliu@tue.ellis.eu
 
-[![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.11570-b31b1b.svg)](https://arxiv.org/abs/2610.11570)
 [![Code](https://img.shields.io/badge/code-Sudoku-blue.svg)](sudoku/README.md)
 
 </div>
@@ -122,7 +122,11 @@ Code for the other benchmarks will follow.
 @article{li2026infiloop,
   title   = {Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals},
   author  = {Li, Pengxiang and Muhtar, Dilxat and He, Di and Su, Guinan and Yin, Lu and Liu, Shiwei},
-  journal = {arXiv preprint},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2610.11570},
+  year    = {2026},
+  eprint  = {2610.11570},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url     = {https://arxiv.org/abs/2610.11570}
 }
 ```
