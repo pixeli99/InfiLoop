@@ -1,0 +1,197 @@
+[
+  {
+    "h_cycles": 2,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 3,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 2,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 4,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 3,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 2,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 4,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 3,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 3,
+    "segments": 12
+  },
+  {
+    "h_cycles": 2,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 4,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 3,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 6,
+    "segments": 12
+  },
+  {
+    "h_cycles": 4,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 16,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 36,
+    "segments": 12
+  },
+  {
+    "h_cycles": 6,
+    "l_cycles": 48,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 36,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 24,
+    "l_cycles": 12,
+    "segments": 12
+  },
+  {
+    "h_cycles": 8,
+    "l_cycles": 48,
+    "segments": 12
+  },
+  {
+    "h_cycles": 16,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 36,
+    "segments": 12
+  },
+  {
+    "h_cycles": 12,
+    "l_cycles": 48,
+    "segments": 12
+  },
+  {
+    "h_cycles": 16,
+    "l_cycles": 36,
+    "segments": 12
+  },
+  {
+    "h_cycles": 24,
+    "l_cycles": 24,
+    "segments": 12
+  },
+  {
+    "h_cycles": 16,
+    "l_cycles": 48,
+    "segments": 12
+  },
+  {
+    "h_cycles": 24,
+    "l_cycles": 36,
+    "segments": 12
+  },
+  {
+    "h_cycles": 24,
+    "l_cycles": 48,
+    "segments": 12
+  },
+  {
+    "h_cycles": 32,
+    "l_cycles": 48,
+    "segments": 12
+  }
+]

@@ -12,7 +12,7 @@
 <sup>†</sup>Corresponding author: sliu@tue.ellis.eu
 
 [![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](#)
-[![Code](https://img.shields.io/badge/code-coming%20soon-lightgrey.svg)](#code)
+[![Code](https://img.shields.io/badge/code-Sudoku-blue.svg)](sudoku/README.md)
 
 </div>
 
@@ -112,9 +112,9 @@ Evaluated up to 24,960 executed layers, InfiLoop reaches 90.9% at 1,872 layers, 
 
 ## Code
 
-The animations above are generated from the paper's figure data by `tools/animations/teaching.py` and `tools/animations/arc.py`; the schematic is `tools/animations/mech.py`.
+Sudoku-Extreme data preparation, training, fixed-depth evaluation, and evaluation across depths are available in [sudoku/](sudoku/README.md). The standalone implementation includes the model and training recipe; pretrained weights are not included. See the Sudoku README for commands and the distinction between fixed-depth accuracy and the paper's 97.9% multi-depth result.
 
-Training and evaluation code will be released in this repository.
+Code for the other benchmarks will follow.
 
 ## Citation
 
