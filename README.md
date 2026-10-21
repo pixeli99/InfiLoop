@@ -13,6 +13,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.11570-b31b1b.svg)](https://arxiv.org/abs/2610.11570)
 [![Code](https://img.shields.io/badge/code-Sudoku-blue.svg)](sudoku/README.md)
+[![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20weights-Sudoku-yellow.svg)](https://huggingface.co/pengxiang/InfiLoop-Sudoku)
 
 </div>
 
@@ -112,7 +113,7 @@ Evaluated up to 24,960 executed layers, InfiLoop reaches 90.9% at 1,872 layers, 
 
 ## Code
 
-[sudoku/](sudoku/README.md) contains data preparation, training, fixed-depth evaluation, and the evaluation across depths behind the 97.9% Sudoku-Extreme result.
+[sudoku/](sudoku/README.md) contains data preparation, training, fixed-depth evaluation, and the evaluation across depths behind the 97.9% Sudoku-Extreme result. The paper's Sudoku-Extreme checkpoint is on [Hugging Face](https://huggingface.co/pengxiang/InfiLoop-Sudoku).
 
 Code for Maze-Hard and ARC-AGI will follow.
 

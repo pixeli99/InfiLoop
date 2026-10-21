@@ -19,6 +19,14 @@ python data.py --output data/sudoku --train-size 1000 --augmentations 1000
 
 Downloads [Sudoku-Extreme](https://huggingface.co/datasets/sapientinc/sudoku-extreme), approximately 0.8 GB. Training uses 1,000 base puzzles, each stored with its original board and 1,000 augmentations (digit relabeling, band, stack, row, and column shuffles, and transposition). Evaluation uses all 422,786 test puzzles. Add `--source-dir /path/to/csv` to read local `train.csv` and `test.csv` files. Datasets built with the HRM or TRM builders (`all__inputs.npy`, `all__labels.npy`, `all__group_indices.npy`) load directly.
 
+## Pretrained checkpoint
+
+```bash
+hf download pengxiang/InfiLoop-Sudoku model.pt --local-dir checkpoints
+```
+
+The EMA checkpoint at step 71,610 used for the paper's Sudoku-Extreme results. It loads directly into `run.py evaluate` and `verify.py`.
+
 ## Train
 
 ```bash
@@ -33,7 +41,7 @@ CUDA and BF16 are selected when available; use `--device cpu` or `--dtype float3
 ## Fixed-depth evaluation
 
 ```bash
-python run.py evaluate --data data/sudoku --checkpoint runs/sudoku/model.pt \
+python run.py evaluate --data data/sudoku --checkpoint checkpoints/model.pt \
   --h-cycles 6 --l-cycles 12 --segments 12 --output runs/sudoku/fixed.json
 ```
 
@@ -42,7 +50,7 @@ Reports exact-board and cell accuracy from the raw argmax predictions. A run exe
 ## Evaluation across depths
 
 ```bash
-python verify.py --data data/sudoku --checkpoint runs/sudoku/step_71610.pt \
+python verify.py --data data/sudoku --checkpoint checkpoints/model.pt \
   --output runs/sudoku/verified.json
 ```
 
